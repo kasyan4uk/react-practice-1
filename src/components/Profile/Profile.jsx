@@ -5,13 +5,12 @@ import { Card, Description, Avatar, Name, Tag, Location, Stats, StatsList, Label
 export const Profile  = ({ username, tag, location, avatar, stats }) => {
     return (
         <Card>
-            <Description class="description">
+            <Description>
                 <Avatar src={avatar} alt="User avatar"/>
                 <Name>{ username }</Name>
                 <Tag>@{ tag }</Tag>
                 <Location>{ location }</Location>
             </Description>
-
             <Stats>
                 <StatsList>
                     <Label>Followers</Label>

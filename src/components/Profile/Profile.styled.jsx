@@ -3,6 +3,8 @@ import styled from "@emotion/styled";
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
   width: 300px;
   align-items: center;
   padding: 20px;
