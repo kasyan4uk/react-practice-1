@@ -1,6 +1,10 @@
 import styled from "@emotion/styled";
 
-export const Statistics = styled.section``;
+export const Statistics = styled.section`
+display: flex;
+flex-direction: column;
+align-items: center;
+`;
 
 export const Title = styled.h2``;
 
